@@ -1,0 +1,81 @@
+body {
+    color: white;
+    font-size: 1.6em;
+    background:  url(backgrouind.avif);
+    padding: 50px;
+}
+
+#buttons {
+    margin-top: 200px;
+    text-align: center;
+}
+
+
+#buttons {
+    margin-top: 200px;
+    text-align: center;
+    color: white;
+}
+button {
+    background-color: #4CAF50;
+    color: white; 
+    padding: 10px 20px; 
+    text-decoration: none;
+    display: inline-block; 
+    font-size: 16px; 
+    cursor: pointer; 
+    border-radius: 5px; 
+}
+
+
+button:hover {
+    background-color: #45a049; 
+}
+
+input {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input:focus {
+    outline: none;
+    border-color: #4CAF50;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.7);
+}
+
+
+a {
+    color: #3498db; 
+    text-decoration: none; 
+    transition: color 0.3s; /* Add a smooth color transition on hover */
+  }
+  
+  a:hover {
+    color: #1e6dbb; 
+  }
+  
+  nav a {
+    margin-right: 10px;
+    color: white;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+ /* for the list of recipes */
+ 
+  .recipe-cards {
+    display: flex;
+    align-items: center;
+    border: 5px solid rgb(255, 255, 255);
+    margin: 10px;
+  }
+   /* for each recipe */
+ .recipe-info,img {
+    padding-left: 50px;
+   
+ }
+  

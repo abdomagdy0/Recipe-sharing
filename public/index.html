@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recipe Search</title>
+  <link href="style.css" rel="stylesheet">
+  <nav> 
+    <a href="login.html">login</a>
+    <a href="register.html">Register</a>
+  </nav>
+</head>
+<body>
+  <div id="buttons">
+    <h1>Recipe Search</h1>
+    <input type="text" id="searchInput" placeholder="Enter recipe name">
+    <button onclick="searchRecipes()">Search</button>
+    <button onclick="getRandomRecipe()">Random</button>
+  </div>
+  <div id="recipeList"></div>
+
+  <!-- Include the script file -->
+  <script src="/js/Random_recipe.js"></script>
+  <script src="/js/search.js"></script>
+</body>
+</html>
